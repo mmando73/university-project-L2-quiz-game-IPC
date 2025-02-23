@@ -1,0 +1,333 @@
+Q: What is the output of the following C code snippet?
+printf("%d", 5 == 5);
+A - 1
+B - 0
+C - True
+D - False
+Answer: A
+
+Q: Which of the following is the correct way to declare a pointer in C?
+A - int p;
+B - int *p;
+C - pointer p;
+D - p = pointer;
+Answer: B
+
+Q: What does the following C++ code snippet do?
+int& ref = num;
+A - Declares an integer variable ref.
+B - Declares ref as a reference to num.
+C - Initializes ref with the address of num.
+D - Compares ref and num.
+Answer: B
+
+Q: What is the default return type of a function in C if it is not explicitly specified?
+A - int
+B - void
+C - float
+D - double
+Answer: A
+
+Q: What is the standard output of the following C++ program?
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Hello, World!";
+    return 0;
+}
+A - Hello, World!
+B - Error: cout was not declared in this scope
+C - 0
+D - Program does not compile
+Answer: A
+
+
+Q: Which of the following correctly shows dynamic memory allocation in C?
+A - int *p = new int;
+B - int *p = malloc(sizeof(int));
+C - int *p = alloc(int);
+D - int p = (int -malloc(sizeof(int)));
+Answer: B
+
+Q: In C++, which keyword is used to define a class method outside the class definition?
+A - extern
+B - static
+C - ::
+D - ->
+Answer: C
+
+Q: What does the delete keyword do in C++?
+A - Deletes variables from memory
+B - Frees dynamically allocated memory
+C - Removes files from the disk
+D - Terminates the program
+Answer: B
+
+Q: Which of the following is true about the size of an integer in C/C++?
+A - Always 2 bytes
+B - Always 4 bytes
+C - Depends on the compiler
+D - 8 bytes on all platforms
+Answer: C
+
+Q: How do you declare an array of ten integers in C?
+A - int arr[10];
+B - array int[10];
+C - int arr[];
+D - int[10] arr;
+Answer: A
+
+Q: What is the correct way to refer to the first element of an array named arr in C?
+A - arr[0];
+B - arr[1];
+C - arr(0);
+D - 0[arr];
+Answer: A
+
+Q: Which operator can be used to dynamically allocate memory in C++?
+A - malloc
+B - alloc
+C - new
+D - create
+Answer: C
+
+Q: What is the purpose of the std::vector in C++?
+A - To perform mathematical operations
+B - To manage a dynamic array
+C - To store key-value pairs
+D - To implement file handling
+Answer: B
+
+Q: In C++, what does the following declaration signify?
+void func(int &x);
+A - x is a pointer to an integer
+B - x is a reference to an integer
+C - x is a function returning a pointer to an integer
+D - x is an array of integers
+Answer: B
+
+Q: How is a comment written in C/C++?
+A - # This is a comment
+B - // This is a comment
+C - <!-- This is a comment -->
+D - ** This is a comment **
+Answer: B
+
+Q: Which keyword is used in C++ to inherit a class?
+A - extends
+B - inherits
+C - super
+D - public
+Answer: D
+
+Q: How do you define a macro in C?
+A - macro MAX 100
+B - #define MAX 100
+C - const MAX = 100;
+D - int MAX = 100;
+Answer: B
+
+Q: Which header file is required to use the cout object in C++?
+A - <stdio.h>
+B - <stdlib.h>
+C - <iostream>
+D - <string>
+Answer: C
+
+Q: What is the correct syntax for declaring a class in C++?
+A - class MyClass {}
+B - class MyClass;
+C - class MyClass {};
+D - MyClass class {};
+Answer: C
+
+Q: What is the scope resolution operator in C++?
+A - ::
+B - .
+C - ->
+D - #
+Answer: A
+
+Q: Which of the following is a valid constructor declaration in a class named Rectangle in C++?
+A - Rectangle(int width, int height);
+B - void Rectangle(int width, int height);
+C - int Rectangle(int width, int height);
+D - class Rectangle(int width, int height);
+Answer: A
+
+Q: In C++, which of the following access specifiers indicates that a member is accessible only within its class and friend classes?
+A - public
+B - private
+C - protected
+D - internal
+Answer: B
+
+Q: How do you handle exceptions in C++?
+A - using the try and catch blocks
+B - using the error function
+C - using the interrupt handler
+D - using the exception class
+Answer: A
+
+Q: Which of the following best describes polymorphism in C++?
+A - Ability to declare variables of different types
+B - Ability to define functions with different parameters
+C - Ability of a message to be displayed in more than one form
+D - Ability to take more than one form
+Answer: D
+
+Q: In C++, what is the output of the following code snippet?
+char text[] = "hello";
+cout << text[1];
+A - h
+B - e
+C - l
+D - o
+Answer: B
+
+Q: What is the output of the following C++ code snippet?
+cout << 5/2;
+A - 2
+B - 2.5
+C - 3
+D - 5
+Answer: A
+
+Q: Which of the following is a correct way to declare a string in C?
+A - string str = "Hello, World!";
+B - char str[] = "Hello, World!";
+C - String str = "Hello, World!";
+D - char str* = "Hello, World!";
+Answer: B
+
+Q: In C++, which class member is called automatically when an object is created?
+A - Initializer
+B - Method
+C - Constructor
+D - Data member
+Answer: C
+
+Q: Which header file must be included to use the cout and cin objects in C++?
+A - <iostream>
+B - <istream>
+C - <ostream>
+D - <stdio.h>
+Answer: A
+
+Q: How do you handle errors in C?
+A - try and catch blocks
+B - Error functions
+C - If-Else conditions
+D - setjmp and longjmp
+Answer: D
+
+Q: In C++, what does the following code snippet print?
+int a = 10;
+int b = 20;
+int c = a + b;
+cout << "The result is: " << c;
+A - The result is: 10
+B - The result is: 20
+C - The result is: 30
+D - The result is:
+Answer: C
+
+Q: Which of the following operators is used to access the members of a pointer to a structure in C?
+A - .
+B - ->
+C - ::
+D - &
+Answer: B
+
+Q: What is the correct way to declare a namespace in C++?
+A - namespace MyNamespace {}
+B - package MyNamespace;
+C - library MyNamespace;
+D - module MyNamespace;
+Answer: A
+
+Q: In which language is Python written?
+A - English
+B - C
+C - Java
+D - Python
+Answer: B
+
+Q: What does CSS stand for?
+A - Computer Style Sheets
+B - Creative Style Sheets
+C - Cascading Style Sheets
+D - Colorful Style Sheets
+Answer: C
+
+Q: What is the correct way to comment out a line in HTML?
+A - // This is a comment
+B - <!-- This is a comment -->
+C - # This is a comment
+D - /* This is a comment */
+Answer: B
+
+Q: Which of the following is not a valid JavaScript variable name?
+A - 2names
+B - _first_and_last_names
+C - FirstAndLast
+D - None of the above
+Answer: A
+
+Q: How do you insert COMMENTS in Python code?
+A - //
+B - #
+C - /*
+D - <!-- -->
+Answer: B
+
+Q: What does HTML stand for?
+A - Hyperlinks and Text Markup Language
+B - Hyper Text Markup Language
+C - Hyper Text Makeup Language
+D - None of the above
+Answer: B
+
+Q: What will be the output of the following Python code snippet?
+print("Python"[1:3])
+A - Py
+B - yt
+C - tho
+D - Python
+Answer: B
+
+Q: How do you declare a JavaScript variable?
+A - var name;
+B - variable name;
+C - v name;
+D - int name;
+Answer: A
+
+Q: Which operator is used in Python to check if two variables are equal?
+A - =
+B - ==
+C - ===
+D - !=
+Answer: B
+
+Q: What is the output of list("hello") in Python?
+A - ['h', 'e', 'l', 'l', 'o']
+B - ['hello']
+C - 'hello'
+D - (‘h’, ‘e’, ‘l’, ‘l’, ‘o’)
+Answer: A
+
+Q: What does the len() function in Python return?
+A - The length of a list
+B - The longest element in a list
+C - The length of any iterable
+D - The size of a variable
+Answer: C
+
+Q: What is the correct file extension for Python files?
+A - .pyt
+B - .python
+C - .py
+D - .pt
+Answer: C
+
